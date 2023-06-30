@@ -1,6 +1,20 @@
-h1{
-    font-size: 100px;
-}
-.text-home{
-    color: beige;
-}
+ /* 
+ #000814
+ #001D3D
+ #003566
+ #ffc300
+ #ffd60a
+ */
+
+
+ h1 {
+     font-size: 100px;
+ }
+
+ .text-home {
+     color: #ffc300;
+ }
+ .break {
+    flex-basis: 100%;
+    height: 0;
+  }
