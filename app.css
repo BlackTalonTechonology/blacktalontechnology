@@ -52,3 +52,10 @@
     padding-bottom: 1%;
 
 }
+.top {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 200px),0 100%);
+}
+.bottom {
+  clip-path: polygon(0 200px,100% 0,100% 100%,0 100%);
+  margin-top: -200px;
+}
