@@ -12,7 +12,7 @@ body {
     font-style: normal;
 }
 
-.cinzel- {
+.cinzel-regular {
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -46,11 +46,9 @@ h4 {
 }
 .text-home {
     color: var(--primaryColor);
-    /* color: #2c99fe; */
 }
 .text-tagline {
     color: var(--primaryColor);
-    /* color: #2c99fe; */
 }
 
 .break {
@@ -78,7 +76,25 @@ h4 {
     font-size: 1rem;
     padding-right: 3%;
     padding-bottom: 1%;
+}
 
+.card {
+    background-color: var(--secondaryColor);
+}
+.card-body {
+    background-color: var(--backgroundColor);
+    color: var(--tertiaryColor);
+}
+.btn-link {
+    color: var(--primaryColor);
+}
+
+.teamSection {
+    background-color: var(--primaryColor);
+}
+
+.page-title {
+    color:var(--tertiaryColor);
 }
 
 /* 
