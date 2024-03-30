@@ -91,12 +91,56 @@ h4 {
 
 .teamSection {
     background-color: var(--primaryColor);
+    height: 100vh;
 }
 
 .page-title {
     color:var(--tertiaryColor);
 }
 
+.teamMemberOne {
+    height: 80vh;
+    width: 25vw;
+    border-radius: 50%;
+    background-image: url(./imgs/headshots/Mr.\ Matthew\ Santonocito.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.teamMemberTwo {
+    height: 80vh;
+    width: 25vw;
+    border-radius: 50%;
+    background-image: url(./imgs/headshots/Mr.\ Alfredo\ Bordenabe.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.teamMemberThree {
+    height: 80vh;
+    width: 25vw;
+    border-radius: 50%;
+    background-image: url(./imgs/headshots/Mr.\ Mathew\ Gajewski.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer {
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 12px;
+    margin-left: 0px;
+    background: var(--tertiaryColor);
+    height: 45px;
+    padding-right: 15px;
+    /* margin-top: 25px; */
+}
+
+.footer p {
+    /* color: rgba(255 255, 255, .3); */
+    color: var(--primaryColor);
+    font-style: italic;
+}
 /* 
  .top {
      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 200px), 0 100%);
