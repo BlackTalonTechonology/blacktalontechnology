@@ -8,6 +8,7 @@
 
 body {
     font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -28,25 +29,37 @@ body {
 h1 {
     font-size: 4rem;
 }
-h2{
+
+h2 {
     font-size: 3rem;
 }
+
 h3 {
     font-size: 2rem;
 }
+
 h4 {
     font-size: 1.5rem;
+}
+
+p {
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navbar-brand {
     color: var(--primaryColor);
 }
+
 .nav-link {
     color: var(--primaryColor);
 }
+
 .text-home {
     color: var(--primaryColor);
 }
+
 .text-tagline {
     color: var(--primaryColor);
 }
@@ -81,10 +94,12 @@ h4 {
 .card {
     background-color: var(--secondaryColor);
 }
+
 .card-body {
     background-color: var(--backgroundColor);
     color: var(--tertiaryColor);
 }
+
 .btn-link {
     color: var(--primaryColor);
 }
@@ -95,7 +110,11 @@ h4 {
 }
 
 .page-title {
-    color:var(--tertiaryColor);
+    color: var(--tertiaryColor);
+}
+
+.modal-content {
+    background-color: var(--primaryColor);
 }
 
 .teamMemberOne {
@@ -106,6 +125,7 @@ h4 {
     background-size: cover;
     background-position: center center;
 }
+
 .teamMemberTwo {
     height: 80vh;
     width: 25vw;
@@ -114,6 +134,7 @@ h4 {
     background-size: cover;
     background-position: center center;
 }
+
 .teamMemberThree {
     height: 80vh;
     width: 25vw;
@@ -121,6 +142,21 @@ h4 {
     background-image: url(./imgs/headshots/Mr.\ Mathew\ Gajewski.jpg);
     background-size: cover;
     background-position: center center;
+}
+
+.img__description {
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.teamMemberOne:hover .img__description {
+    visibility: visible;
+    opacity: 1;
 }
 
 .footer {
@@ -141,6 +177,7 @@ h4 {
     color: var(--primaryColor);
     font-style: italic;
 }
+
 /* 
  .top {
      clip-path: polygon(0 0, 100% 0, 100% calc(100% - 200px), 0 100%);

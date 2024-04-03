@@ -51,7 +51,7 @@
         </nav>
 
         <!-- Tagline/Title -->
-        <div class="container h-75 d-flex justify-content-center">
+        <div class="container h-75 d-flex justify-self-center">
             <div class="row">
                 <h1 class="col-sm-12 text-home text-center align-self-end">Black Talon Technology</h1>
                 <h4 class="col-sm-12 text-tagline text-center align-self-start"> Sharpening Your Online Presence, One
@@ -175,16 +175,94 @@
         <div class="container">
             <h2 class="text-center page-title pb-3">Meet the Team</h2>
             <div class="d-flex justify-content-center">
-                <div class="teamMemberOne m-auto">
+                <button type="button" class="btn" data-toggle="modal" data-target="#teamMemberOne"
+                    data-whatever="Matthew Santonocito">
+                    <div class="teamMemberOne m-auto">
+                        <div class="image-description">This is a hecking test</div>
+                    </div>
+                </button>
+                <button type="button" class="btn" data-toggle="modal" data-target="#teamMemberTwo"
+                    data-whatever="Alfredo Bordenabe">
+                    <div class="teamMemberTwo m-auto">
 
+                    </div>
+                </button>
+                <button type="button" class="btn" data-toggle="modal" data-target="#teamMemberThree"
+                    data-whatever="Mathew Gajewski">
+                    <div class="teamMemberThree m-auto">
+
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="teamMemberOne" tabindex="-1" role="dialog" aria-labelledby="teamMemberOneTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="teamMemberOneTitle">Matthew Santonocito</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-
-                <div class="teamMemberTwo m-auto">
-
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sapiente culpa reprehenderit? Velit,
+                    accusantium? Odit voluptate laboriosam quam, iure illo tempore? Blanditiis cumque sint provident
+                    rerum veritatis itaque alias magnam facere libero dolorum sapiente in minima, quisquam harum. Nihil
+                    dolorum saepe architecto, quasi exercitationem eveniet modi dolores ipsum fugit iure temporibus
+                    corporis itaque voluptatum ducimus optio consequuntur eligendi voluptatem esse non id qui! 
                 </div>
-
-                <div class="teamMemberThree m-auto">
-
+                <div class="modal-footer">
+                    <button type="button" class="bttButton" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="teamMemberTwo" tabindex="-1" role="dialog" aria-labelledby="teamMemberTwoTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="teamMemberOneTitle">Alfredo Bordenabe</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sapiente culpa reprehenderit? Velit,
+                    accusantium? Odit voluptate laboriosam quam, iure illo tempore? Blanditiis cumque sint provident
+                    rerum veritatis itaque alias magnam facere libero dolorum sapiente in minima, quisquam harum. Nihil
+                    dolorum saepe architecto, quasi exercitationem eveniet modi dolores ipsum fugit iure temporibus
+                    corporis itaque voluptatum ducimus optio consequuntur eligendi voluptatem esse non id qui! 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="bttButton" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="teamMemberThree" tabindex="-1" role="dialog" aria-labelledby="teamMemberThreeTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="teamMemberThreeTitle">Mathew Gajewski</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sapiente culpa reprehenderit? Velit,
+                    accusantium? Odit voluptate laboriosam quam, iure illo tempore? Blanditiis cumque sint provident
+                    rerum veritatis itaque alias magnam facere libero dolorum sapiente in minima, quisquam harum. Nihil
+                    dolorum saepe architecto, quasi exercitationem eveniet modi dolores ipsum fugit iure temporibus
+                    corporis itaque voluptatum ducimus optio consequuntur eligendi voluptatem esse non id qui! 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="bttButton" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -200,14 +278,13 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-
     <footer class="container-fluid footer">
-            <p>Copyright © 2024 Black Talon Technology</p>
-            <span id="arrow">
-                <button class="fa-sharp fa-solid fa-arrow-up-long fa-lg arrow btn bg-transparent arrowSet"
-                    onclick="window.scrollTo(0, 0)">
-                </button>
-            </span>
+        <p>Copyright © 2024 Black Talon Technology</p>
+        <span id="arrow">
+            <button class="fa-sharp fa-solid fa-arrow-up-long fa-lg arrow btn bg-transparent arrowSet"
+                onclick="window.scrollTo(0, 0)">
+            </button>
+        </span>
     </footer>
 </body>
 
