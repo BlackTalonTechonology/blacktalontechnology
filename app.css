@@ -82,6 +82,11 @@ p {
     border-radius: 10%;
 }
 
+a.hover:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .questions {
     background-color: var(--backgroundColor);
     color: var(--primaryColor);
