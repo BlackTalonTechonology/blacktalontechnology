@@ -1,9 +1,9 @@
 :root {
     --primaryColor: #d2cbc0;
     --secondaryColor: #59748c;
-    --tertiaryColor: #2c99fe;
+    --tertiaryColor: #283247;
     --backgroundColor: #070B13;
-    --extraColor: #ffffff;
+    --extraColor: #E88156;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--tertiaryColor);
 }
 
 .cinzel-regular {
@@ -26,21 +27,6 @@ body {
     font-style: normal;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-h4 {
-    font-size: 1.5rem;
-}
 
 p {
     font-family: "Fauna One", serif;
@@ -109,6 +95,44 @@ a.hover:hover {
     color: var(--primaryColor);
 }
 
+.accordion{
+    background-color: var(--backgroundColor);
+}
+.accordion-row {
+    background-color: var(--tertiaryColor);
+}
+.accordion-button{
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+    display: block;
+    text-align: center;
+}
+.accordion-button:hover{
+    color: var(--primaryColor)
+}
+.accordion-item{
+    border: 2px solid var(--tertiaryColor)
+}
+.accordion-body{
+    border: 2px solid var(--secondaryColor);
+}
+button::after {
+    position: absolute;
+    z-index: 100;
+    right: 16px;
+  }
+
+.accordion-button:not(.collapsed){
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+
+}
+
+.accordion-collapse {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
 .teamSection {
     background-color: var(--primaryColor);
     height: 100vh;
@@ -171,7 +195,7 @@ a.hover:hover {
     width: 100%;
     padding-top: 12px;
     margin-left: 0px;
-    background: var(--tertiaryColor);
+    background: var(--secondaryColor);
     height: 45px;
     padding-right: 15px;
     /* margin-top: 25px; */
